@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- StreamShell brand red: bright red top-left to deep crimson bottom-right, with a soft top sheen. No blue. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:pathData="M0,0 h108 v108 h-108 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear"
+                android:startX="10" android:startY="0" android:endX="98" android:endY="108">
+                <item android:offset="0" android:color="#FFFF3D3D"/>
+                <item android:offset="0.5" android:color="#FFE8112D"/>
+                <item android:offset="1" android:color="#FF8E0019"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M0,0 h108 v38 C72,50 34,30 0,48 z" android:fillColor="#10FFFFFF"/>
+</vector>

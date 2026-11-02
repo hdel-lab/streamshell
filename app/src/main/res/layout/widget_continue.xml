@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widget "Continue watching" (RemoteViews: plain views only). -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/widget_background">
+
+    <TextView
+        android:id="@+id/widget_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_title"
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingBottom="6dp" />
+
+    <TextView
+        android:id="@+id/widget_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_empty"
+        android:textColor="#B3FFFFFF"
+        android:textSize="13sp" />
+
+    <LinearLayout android:id="@+id/widget_row1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingVertical="4dp">
+        <TextView android:id="@+id/widget_title1" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:ellipsize="end" android:textColor="#FFFFFFFF" android:textSize="13sp" />
+        <TextView android:id="@+id/widget_time1" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#99FFFFFF" android:textSize="11sp" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/widget_row2" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingVertical="4dp">
+        <TextView android:id="@+id/widget_title2" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:ellipsize="end" android:textColor="#FFFFFFFF" android:textSize="13sp" />
+        <TextView android:id="@+id/widget_time2" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#99FFFFFF" android:textSize="11sp" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/widget_row3" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingVertical="4dp">
+        <TextView android:id="@+id/widget_title3" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:ellipsize="end" android:textColor="#FFFFFFFF" android:textSize="13sp" />
+        <TextView android:id="@+id/widget_time3" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#99FFFFFF" android:textSize="11sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- StreamShell mark: a rounded play triangle inside an open "shell" arc (the stream curling around the video).
+     White, also used as the monochrome icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Shell arc: 280° around the centre, open at the top right, rounded ends. -->
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="5.5" android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M74.67,46.48 A22,22 0 1,1 50.18,32.33"/>
+    <!-- The stream's head: a small dot where the arc opens. -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M65,35 m-3.4,0 a3.4,3.4 0 1,0 6.8,0 a3.4,3.4 0 1,0 -6.8,0"/>
+    <!-- Rounded play triangle -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M48.5,47.2 C48.5,45.4 50.4,44.3 52,45.2 L63.6,52.1 C65.2,53 65.2,55.2 63.6,56.1 L52,63 C50.4,63.9 48.5,62.8 48.5,61 Z"/>
+</vector>

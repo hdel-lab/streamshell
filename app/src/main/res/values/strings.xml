@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StreamShell</string>
+    <string name="shortcut_youtube">YouTube</string>
+    <string name="shortcut_search">Search</string>
+    <string name="shortcut_continue">Continue</string>
+    <string name="shortcut_continue_long">Continue watching</string>
+    <string name="shortcut_watch_later">Watch later</string>
+    <string name="shortcut_library">Library</string>
+    <string name="widget_title">Continue watching</string>
+    <string name="widget_empty">Videos you stop in the middle show up here.</string>
+    <string name="widget_description">Up to three videos to continue, from StreamShell</string>
+</resources>

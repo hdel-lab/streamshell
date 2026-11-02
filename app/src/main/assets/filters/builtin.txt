@@ -1,0 +1,34 @@
+! StreamShell built-in list (format: see FilterList.kt).
+! A small, conservative set of well-known advertising and analytics hosts.
+! Domain blocking is NOT a way to remove YouTube player ads and is not presented as one.
+! Third-party-only rules never fire when you visit the site itself.
+||doubleclick.net^$third-party
+||googlesyndication.com^$third-party
+||googleadservices.com^$third-party
+||adservice.google.com^$third-party
+||google-analytics.com^$third-party
+||adnxs.com^$third-party
+||amazon-adsystem.com^$third-party
+||taboola.com^$third-party
+||outbrain.com^$third-party
+||criteo.com^$third-party
+||criteo.net^$third-party
+||scorecardresearch.com^$third-party
+||quantserve.com^$third-party
+||adsrvr.org^$third-party
+||rubiconproject.com^$third-party
+||pubmatic.com^$third-party
+||openx.net^$third-party
+||casalemedia.com^$third-party
+||moatads.com^$third-party
+||hotjar.com^$third-party
+||mixpanel.com^$third-party
+||krxd.net^$third-party
+||bluekai.com^$third-party
+||demdex.net^$third-party
+||everesttech.net^$third-party
+||adform.net^$third-party
+||smartadserver.com^$third-party
+||media.net^$third-party
+||yieldmo.com^$third-party
+||tapad.com^$third-party

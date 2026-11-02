@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Long-press the StreamShell icon: YouTube, Search, Continue watching, Watch later, Library. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="youtube" android:enabled="true" android:icon="@drawable/ic_shortcut_youtube"
+        android:shortcutShortLabel="@string/shortcut_youtube">
+        <intent android:action="com.streamshell.action.YOUTUBE" android:targetPackage="com.streamshell" android:targetClass="com.streamshell.MainActivity"/>
+    </shortcut>
+    <shortcut android:shortcutId="search" android:enabled="true" android:icon="@drawable/ic_shortcut_search"
+        android:shortcutShortLabel="@string/shortcut_search">
+        <intent android:action="com.streamshell.action.SEARCH" android:targetPackage="com.streamshell" android:targetClass="com.streamshell.MainActivity"/>
+    </shortcut>
+    <shortcut android:shortcutId="continue" android:enabled="true" android:icon="@drawable/ic_shortcut_continue"
+        android:shortcutShortLabel="@string/shortcut_continue" android:shortcutLongLabel="@string/shortcut_continue_long">
+        <intent android:action="com.streamshell.action.CONTINUE" android:targetPackage="com.streamshell" android:targetClass="com.streamshell.MainActivity"/>
+    </shortcut>
+    <shortcut android:shortcutId="watch_later" android:enabled="true" android:icon="@drawable/ic_shortcut_continue"
+        android:shortcutShortLabel="@string/shortcut_watch_later">
+        <intent android:action="com.streamshell.action.WATCH_LATER" android:targetPackage="com.streamshell" android:targetClass="com.streamshell.MainActivity"/>
+    </shortcut>
+    <shortcut android:shortcutId="library" android:enabled="true" android:icon="@drawable/ic_shortcut_youtube"
+        android:shortcutShortLabel="@string/shortcut_library">
+        <intent android:action="com.streamshell.action.LIBRARY" android:targetPackage="com.streamshell" android:targetClass="com.streamshell.MainActivity"/>
+    </shortcut>
+</shortcuts>

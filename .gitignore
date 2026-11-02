@@ -1,0 +1,32 @@
+# Build output
+/build/
+/app/build/
+.gradle/
+.kotlin/
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+*.apks
+*.idsig
+*.log
+
+# Local machine settings
+local.properties
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+
+# Signing: NEVER publish the private key or its passwords
+signing/
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore.properties
+
+# Test tooling dependencies (installed by tools/js-sim/run.sh)
+tools/js-sim/node_modules/
+tools/js-sim/.lint/

@@ -1,0 +1,19 @@
+# detekt 1.23 settings for StreamShell (checked with: java -jar detekt-cli-all.jar --config config/detekt.yml
+#   --baseline config/detekt-baseline.xml --input app/src/main/java). The baseline holds the findings that existed when
+# static analysis was introduced (0.4.0); new code is checked in full.
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+style:
+  MaxLineLength:
+    maxLineLength: 160
+    excludeRawStrings: true
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    ignoreAnnotated: ['Composable']
+complexity:
+  LongParameterList:
+    ignoreAnnotated: ['Composable']
+  LongMethod:
+    ignoreAnnotated: ['Composable']
